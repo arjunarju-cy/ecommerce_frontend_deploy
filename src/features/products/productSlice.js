@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const getProduct=createAsyncThunk('product/getProduct',async({keyword,page=1,category},{rejectWithValue})=>{
     try{
-        let link='/api/v1/products?page='+page;
+        let link = `${import.meta.env.VITE_BACKEND_URL}/api/v1/products?page=${page}`;
         if(category){
             link+=`&category=${category}`;
         }
