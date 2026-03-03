@@ -9,8 +9,8 @@ function Footer() {
         {/* Section1 */}
         <div className="footer-section contact">
             <h3>Contact Us</h3>
-            <p><Phone fontSize='small'/>Phone : +9865467888</p>
-            <p><Mail fontSize='small'/>Email : khanamtestad@gmail.com</p>
+            <p><Phone fontSize='small'/>Phone : +91 7994782589</p>
+            <p><Mail fontSize='small'/>Email : arjuni5acer12@gmail.com</p>
         </div>
 
         {/* Section2 */}
